@@ -1,3 +1,5 @@
-optConfig:
-  optOutStrategy: true
 action: issue
+enforceBranches:
+  - 'release'
+  - 'dev'
+dismissStale: false

@@ -1,3 +1,1 @@
-optConfig:
-  optOutStrategy: true
-action: issue
+action: log # TODO: set to issue when it would be possible to disable issue bumping (https://github.com/ossf/allstar/issues/117)

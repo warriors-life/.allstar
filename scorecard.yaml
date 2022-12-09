@@ -1,0 +1,21 @@
+action: log # TODO: set to issue when it would be possible to disable issue bumping (https://github.com/ossf/allstar/issues/117)
+checks:
+  - 'Binary-Artifacts'
+  - 'Branch-Protection'
+  - 'CI-Tests'
+# - 'CII-Best-Practices' - only for open-source
+  - 'Code-Review'
+# - 'Contributors' - almost impossible for closed-source to achieve
+  - 'Dangerous-Workflow'
+  - 'Dependency-Update-Tool'
+  - 'Fuzzing'
+# - 'License' - closed-source can achieve only 9/10
+  - 'Maintained'
+  - 'Packaging'
+  - 'Pinned-Dependencies'
+  - 'SAST'
+  - 'Security-Policy'
+  - 'Signed-Releases'
+  - 'Token-Permissions'
+  - 'Vulnerabilities'
+  - 'Webhooks'

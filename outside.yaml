@@ -1,3 +1,2 @@
-optConfig:
-  optOutStrategy: true
 action: issue
+pushAllowed: false
